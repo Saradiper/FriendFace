@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UserDetailView: View {
     var user: CachedUser
-   
+    
     
     @State var pickerView = ["Profile", "Friends"]
     @State var pickerViewSelected = "Profile"
@@ -45,8 +45,3 @@ struct UserDetailView: View {
     }
 }
 
-//struct UserDetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        UserDetailView()
-//    }
-//}

@@ -23,9 +23,3 @@ struct FriendsView: View {
         }
     }
 }
-
-//struct FriendsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        FriendsView()
-//    }
-//}

@@ -17,7 +17,6 @@ class DataController: ObservableObject {
                 print("Core Data failed: \(error.localizedDescription)")
             }
             
-            //Unic attribute using constraints
             self.container.viewContext.mergePolicy = NSMergePolicy.mergeByPropertyObjectTrump
         }
     }
